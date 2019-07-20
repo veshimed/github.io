@@ -1,0 +1,269 @@
+html, body {
+	background: url(img/3.jpg) no-repeat center fixed;   
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;	
+}
+
+.page {
+    position: relative;  
+	min-height: 100%;  
+    height: auto ;   
+}
+  
+.wrap {
+    padding-bottom: 100px;
+	position: relative;  
+    min-height: 100%;  
+}
+  
+.footer {
+    height: 100px;
+    margin-top: -100px;
+    width: 100%; 	
+}
+
+p {
+	color: black;
+	text-align: left;
+	white-space: pre-wrap;
+	width: 910px;
+	align: center;
+	font-size: 16px;
+	font-family:"Comic Sans MS";
+	background-color: rgba(206, 171, 107, 0.14);
+}
+
+h2 {
+	
+	text-align: center;
+	font-family:"Comic Sans MS";
+}
+
+#content_all {
+	width: 930px;
+	border: solid 0px #FFFAFA;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:transparent;
+	align: center;
+}
+
+#slideshow {
+	width: 930px;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:transparent;
+	align: center;
+	margin-top:auto;
+}
+
+.mi:hover {
+	-webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5); 
+    -o-transform: scale(1.5);
+	transform: scale(1.5);
+	top: 30px;
+	position: relative;
+	padding: 2px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	o-border-radius: 15px;  
+}
+
+.button_style {
+	
+	box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+	background-color:#79bbff;	
+	border-top-left-radius:6px;	
+	border-top-right-radius:6px;	
+	border-bottom-right-radius:6px;	
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #469df5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #287ace;
+}
+
+.button_style:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+	background-color:#4197ee;
+}
+
+.button_style:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
+
+.tb {
+	width: 915px;
+	border: solid 0px #FFFAFA;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:transparent;
+	font-family:"Comic Sans MS";
+	font-size: 14pt;
+	border: 0 ;
+	cellspacing: 5;
+	white-space: pre-wrap;	 
+}
+
+.tb tr td {
+	width: 300px;
+	padding: 8px;
+	background-color: rgba(206, 171, 107, 0.14);
+	text-align: justify;
+	vertical-align:top;
+}
+
+.tb1 {
+	width: 915px;	
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:transparent;
+	font-family: 'HelveticaNeue';
+	font-size: 11pt;
+	border: 0 ;
+	cellspacing: 5;
+	white-space: pre-wrap;
+	align: center;
+}
+
+.tb1 tr td {
+	padding: 8px;
+	align: center;
+	text-align: justify;
+}
+
+.tb2 {
+	width: 915px;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:transparent;
+	font-family:"Comic Sans MS";
+	background-color: rgba(206, 171, 107, 0.14);
+	border: 0 ;
+	cellspacing: 5;
+	white-space: pre-wrap;	 
+}
+
+.tb2 tr td {
+	padding: 8px;
+	text-align: justify;
+}
+
+#blanket {
+   width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+	z-index: 9001;
+}
+
+#popUpDiv {
+    position:fixed;
+    background: url(img/dm.gif) no-repeat center fixed;
+    width:400px;
+    height:100px;    
+    margin:0px;
+	z-index: 9002;	
+}
+
+#popUpDiv a {
+    margin:100px auto 0px auto;
+    width:200px;
+    height: 30px;
+    padding:10px;      
+    position:fixed;
+	font-family:"Comic Sans MS";
+	color:white;
+	font-size:17px;	
+}
+
+.blokimg {position: relative;}
+
+.overlay{
+	display: none;
+	height: auto;
+	left: -15%;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	z-index: 999;
+}
+.overlay .overlay_container{
+	display: table-cell;  
+	vertical-align: middle; 
+  
+}
+.overlay_container img{
+	background-color: #F0FFFF;
+	padding: 2px;
+}
+  
+.overlay:target {
+	display: table;
+}
+
+.audio {
+	align: center;
+	position: absolute;
+	left: 1%;
+	top: 1%;
+	opacity: 0.3;
+}
+
+.audio:hover {
+	opacity: 1;
+}
+
+a.idTop {
+	position: fixed; 
+	z-index: 9999;  
+	opacity: 0.6; 
+	bottom: 20px;
+	right: 3%;
+}
+ 
+a.idTop:hover {
+	opacity: 1;
+}
+.g {
+	width: 300px;
+    height: 240px;
+	border: 10;
+}
+.g:hover {
+	position:relative;
+	top: 1.5px;
+	border: 10;
+}
+
+
